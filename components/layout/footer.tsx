@@ -14,8 +14,8 @@ export function Footer() {
               </div>
               <span className="font-display text-lg font-bold text-foreground">BitBandy</span>
             </Link>
-            <p className="text-sm text-muted-foreground">
-              Bitbandy is an event ticketing platform for memorable experiences in Nigeria. Easily host events, sell tickets (N or crypto), transfer/resell tickets, and manage merchandise.
+            <p className="text-sm leading-relaxed text-muted-foreground">
+              Bitbandy is an event ticketing platform for memorable experiences in Nigeria. Easily host events, sell tickets, transfer/resell tickets, and manage merchandise.
             </p>
             <div className="space-y-2 text-sm">
               <p className="text-muted-foreground">
@@ -40,19 +40,13 @@ export function Footer() {
             <h3 className="mb-4 text-sm font-semibold text-foreground">Company</h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/about" className="text-sm text-muted-foreground transition-colors hover:text-primary">
-                  About Us
-                </Link>
+                <Link href="/about" className="text-sm text-muted-foreground transition-colors hover:text-primary">About Us</Link>
               </li>
               <li>
-                <Link href="/how-it-works" className="text-sm text-muted-foreground transition-colors hover:text-primary">
-                  How it Works
-                </Link>
+                <Link href="/how-it-works" className="text-sm text-muted-foreground transition-colors hover:text-primary">How it Works</Link>
               </li>
               <li>
-                <Link href="/contact" className="text-sm text-muted-foreground transition-colors hover:text-primary">
-                  Contact Us
-                </Link>
+                <Link href="/contact" className="text-sm text-muted-foreground transition-colors hover:text-primary">Contact Us</Link>
               </li>
             </ul>
           </div>
@@ -62,9 +56,7 @@ export function Footer() {
             <h3 className="mb-4 text-sm font-semibold text-foreground">Explore</h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/events" className="text-sm text-muted-foreground transition-colors hover:text-primary">
-                  Browse Events
-                </Link>
+                <Link href="/events" className="text-sm text-muted-foreground transition-colors hover:text-primary">Browse Events</Link>
               </li>
             </ul>
           </div>
@@ -74,19 +66,13 @@ export function Footer() {
             <h3 className="mb-4 text-sm font-semibold text-foreground">Legal</h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/terms" className="text-sm text-muted-foreground transition-colors hover:text-primary">
-                  Terms & Conditions
-                </Link>
+                <Link href="/terms" className="text-sm text-muted-foreground transition-colors hover:text-primary">Terms & Conditions</Link>
               </li>
               <li>
-                <Link href="/privacy" className="text-sm text-muted-foreground transition-colors hover:text-primary">
-                  Privacy Policy
-                </Link>
+                <Link href="/privacy" className="text-sm text-muted-foreground transition-colors hover:text-primary">Privacy Policy</Link>
               </li>
               <li>
-                <Link href="/refund" className="text-sm text-muted-foreground transition-colors hover:text-primary">
-                  Refund Policy
-                </Link>
+                <Link href="/refund" className="text-sm text-muted-foreground transition-colors hover:text-primary">Refund Policy</Link>
               </li>
             </ul>
           </div>
